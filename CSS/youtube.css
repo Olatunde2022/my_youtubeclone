@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    border-top: 1px solid rgb(237, 237, 237);
+    background-color:white;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+height: 65px;
+padding: 5px;
+position: fixed;
+top:0;
+width: 100%;
+margin-left: -20%;
+/* margin-left: 10%; */
+}
+.menu_logo img {
+    cursor: pointer;
+    height: 20px;
+    width: 120px;
+    padding: 0 7px 0 7px;
+    cursor: pointer;
+}
+.menu_logo span{   
+    padding: 0 7px ;
+    /* align-items: center; */
+    cursor: pointer;
+}
+.serch_bar{    
+    margin-top: 15px;
+    align-items: center;
+    display: flex;
+    padding:  20px 0;
+    margin-bottom: 20px;
+}
+.mic{cursor: pointer;
+   margin-left: 40px;
+   background-color: beige;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+ .mic :hover{
+    background-color: rgb(51, 51, 50);
+    border-radius: 50%;
+    height: 440px;
+    width: 40px;
+ }
+    
+.search_input{
+    outline: none!important;    
+    border: 1px solid rgb(187, 186, 186);
+    height: 40px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 550px;
+    padding: 10px;
+   }
+  input::placeholder{
+    font-size: 20px;
+   }
+.search_btn{
+    outline: none!important;    
+    border: 1px solid rgb(187, 186, 186);
+    height: 40px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 65px;
+    cursor: pointer;
+ }
+.icons{
+    cursor: pointer;
+    justify-content: space-evenly;
+    font-size: 50px;
+}
+.big_icon{
+    font-size: 30px;
+    }
+aside{
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    height: 100%;
+    width: 15%;
+
+   
+    }
+
+.Nav{
+    display: flex;
+    align-items: center;
+    width: 90%;
+
+}
+.footer{
+    padding: 15px 0;
+    color: rgb(212, 211, 211);
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5px;
+    background-color:#e5e5e5; 
+    /* font-weight: 700; */
+}
+hr{
+    border: 1px solid  rgb(183, 182, 182);
+    margin-top: 10px; 
+    margin-bottom: 15px; 
+   
+}
+
+.nav_link{
+    color: black;
+    display: flex;
+   text-decoration: none;
+   align-items: center;  
+   margin-bottom: 12px;
+   }
+
+   .Nav:hover, .active{background-color:#e5e5e5; 
+    border-radius: 7px;   
+    width: 90%;
+   }
+   .nav_text{margin-left: 15px;}
+
+.aside_list{
+    width: 17%;
+    position: fixed;
+    height: 100vh;
+    margin-top: 70px;
+    margin-left: 17px;
+    background-color:white;  
+    padding-bottom: 50px;  
+    /* overflow: auto; */
+           
+   }
+   .aside_list:hover{
+    height: 100vh;
+    overflow-y: scroll;
+   }
+   .aside_buttom_text{     
+    margin-bottom: 10px;  
+    width: 70%;  
+   }
+   .aside_buttom_text p{
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    line-height: 20px;
+    font-weight:700;
+    color: rgb(112, 112, 112);
+    margin-left: 5px;
+   }
+
+main{
+    background-color: #f9f9f9;
+    height: (100vh-70px);
+    position: absolute;
+    top: 75px; left: 20%;    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    margin-top: 25px;
+    padding: 10px 0;  
+    cursor: pointer;  
+}
+.col{
+    width: 100%;
+}
+.col_text span{
+    margin-right: 10px;
+    font-size: 30px;
+}
+.col_text{
+    display: flex;
+    flex-direction: column;
+}
+.col_box{
+    display: flex;
+    flex-direction: row;
+}
+.row h4{
+    font-size: 13px;
+    width: 70%;
+}
+.main{margin-top: -20px;
+    height: 10%;
+    background-color:white;
+    
+    /* justify-content: space-between; */
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    position: fixed;
+    padding: 25px 0;
+
+}
+.other{
+    min-width: 140px;
+}
+
+
+.main_menu{
+    :hover{
+        background-color:rgb(226, 224, 224);
+        border-radius: 7px;       
+        height: 30px;        
+    }
+}
+
+
+.all{
+    border-radius: 7px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    width: 40px;
+    height: 30px;
+    justify-content: center;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.main_menu span{
+    background-color: rgb(239, 238, 238);
+    /* justify-content: space-between; */
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 15px;
+    border-radius: 7px;
+    height:30px;
+    padding: 5px;
+
+}
+.thumb_main img{
+        border-radius: 10px;
+       width:335px;
+
+    /* height: 200px;  */
+    margin-right: 10px;
+    justify-content: space-around;
+}
+
+@media (max-width: 425px) and (min-width: 320px) {
+    /* For phone: */
+    .row{ display: flex;
+        margin-top: 0px;
+        flex-direction: column;
+    }
+    .col{ width: 100%;
+        margin-bottom: 30px;}
+        aside{display: none;
+        }
+    .main{
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* margin-top: 20px; */
+    }
+    .thumb_main{
+        margin-top: 40px;
+    }
+    .main_menu{
+        left: auto;
+        display: flex;
+        flex-direction: row;
+    }
+    form{
+        display: none;
+    }
+    main{
+        left: 0;
+    }
+    .thumb_main img {
+    
+    width: 410px;
+   
+}
+.header div{ display: flex;
+    flex-direction: row;
+  
+}
+.header{
+  margin-left: 0%;
+}
+.vid, .mic{
+    display: none;
+}
+.serch_bar{    margin-right: -190px;
+    /* margin-left: 45vw; */
+}
+
+.bell{
+    margin-right: 50px;
+}
+.icons{
+    margin-left: -45px;
+}
+}
+
+  
+  
+  @media only screen and (min-width: 426px) {
+    /* For desktop: */
+    .btn {
+        border: 1px solid #a19e9e;
+        height: 40px;
+        width: 60px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding: 10px 15px;
+    }
+    
+  }
